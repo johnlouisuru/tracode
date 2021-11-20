@@ -1,0 +1,398 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  
+}
+
+.sidenav {
+  height: 200.5%;
+  width: 216px;
+  position: absolute;
+  background-color: darkgray;
+  padding-top: -80px;
+  margin-top: 0px;
+  z-index: 1;
+  border-right: 1px solid;
+}
+
+.buttonlevel{
+
+  font-size: large;
+}
+
+.sidenav .nav {
+  padding: 8px 8px 8px 32px;
+  font-size: 18px;
+  color:#f2f3f4;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .nav:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.sidenav p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.main {
+  margin-left: 200px;
+  padding: 0px;
+  
+}
+.button {
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#btnans{
+ color: green;
+ font-weight: 200;
+ padding: 2%;
+}
+
+#btn1{
+  background-color: rgb(61, 180, 61);
+  width: 150px; 
+  margin-bottom: 20px;
+  border: 2px solid rgb(61, 180, 61); 
+  border-radius: 5px;
+  color:white;
+  font-weight: 1000;
+  padding: 0.5%;
+}
+
+.learn {
+  background-color: #add8e6; 
+  color: black; 
+  border: 2px solid #008CBA;
+  position: absolute;
+  float: right;
+}
+
+.learn:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.trycode {
+  background-color: #ee8989; 
+  color: black; 
+  border: 2px solid #e62d2d;
+  position: absolute;
+  float: right;
+}
+
+.trycode:hover {
+  background-color: #f76d6d;
+  color: white;
+}
+.login {
+  background-color: #add8e6; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.login:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+/* basic php navbar */
+.sidenav2 {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: pink;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+margin-top: 145px;
+}
+
+.sidenav2 a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav2 a:hover {
+color: palevioletred;
+}
+
+.sidenav2 .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* navbar fix top */
+
+.navtop{
+background-color: #f7a8ac;
+position: fixed;
+overflow-x: hidden;
+top: 0;
+width: 100%;
+margin-left: 215px;
+padding-right: 215px;
+}
+/* login navbar */
+
+.logintry:hover{
+background-color: #ff6459;
+padding: 10px 10px 10px 10px;
+transition: 0.7s;
+border-radius: 10px;
+opacity: 1;
+color: white;
+}
+
+.logintry{
+text-decoration: none !important;
+margin-top: auto;
+font-weight: 0;
+font-family: 'Roboto Mono', monospace;
+border: none;
+padding: 10px 10px 10px 10px;
+background-color: transparent;
+margin-right: 20px;
+
+}
+
+
+/* sigup page sidenav */
+
+.sidenavhome {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #363535;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenavhome a {
+padding: 8px 8px 10px 50px;
+text-decoration: none !important;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenavhome a:hover {
+color: white;
+background-color: #8f8282;
+}
+
+.sidenavhome .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+text-decoration: none !important;
+}
+
+.navcur {
+height: 100%;
+position: absolute;
+width: 50px;
+background-color: #1a1a1a;
+}
+
+/* homepage css */
+
+.imgsize{
+
+width: 10000000000000000000000000000000000000px;
+height: auto;
+
+margin-top: 20px;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+#navArea {
+display: flex;
+padding: 0px 10%;
+position: fixed;
+width: 100%;
+top: 0px;
+background: white;
+transition: background 0.5s;
+}
+
+#navArea .logo img {
+height: 100px;
+transition: height 0.5s;
+}
+
+
+#navArea ul {
+font-size: 1em;
+list-style: none;
+display: flex;
+align-items: center;
+width: 400px;
+}
+
+#navArea .logintry:hover{
+  background-color: #ff6459;
+  padding: 10px 10px 10px 10px;
+  transition: 0.7s;
+  border-radius: 10px;
+ opacity: 1;
+ color: white;
+}
+
+#navArea .logintry{
+  text-decoration: none !important;
+  margin-top: auto;
+  font-weight: 0;
+  font-family: 'Roboto Mono', monospace;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  background-color: transparent;
+
+}
+#navArea ul li a {
+text-decoration: none;
+color: #000;
+font-weight:500;
+transition: color 0.5s;
+padding-left: 20px ;
+}
+
+#navArea.is-sticky {
+background: #c90000;
+}
+
+#navArea.is-sticky a {
+color:#fff;
+}
+
+#navArea.is-sticky .logo img {
+height:64px;
+}
+
+.div3 {
+  text-align: center;
+  background-color: #ff9980;
+    width: 55%;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    position: relative;
+    
+  }
+  .div4 {
+    background-color: #ff9980;
+      width: 80%;
+      padding-top: 5px;
+      position: relative;
+      
+    }
+
+    .merlo:hover{
+      color: white;
+    }
+
+
+/* admin design */
+.program {
+background-color: #ef464f; 
+color: black; 
+border: 2px solid #5a070c;
+width: 250px;
+}
+
+.program:hover {
+background-color: #e8141f;
+color: white;
+}
+.create {
+background-color: #fe7d6a; 
+color: black; 
+border: 2px solid #5a070c;
+width: 300px;
+}
+
+.create:hover {
+background-color: #e8141f;
+color: white;
+}
+
+.back{
+color: black; 
+font-size: 30px;
+text-decoration: none !important;
+}
+
+.back:hover {
+color: red;
+}
+
+/* x-nav-link design */
+
+.navdes {
+text-decoration: none !important;
+font-size: large;
+color:black;
+}
+.navdes:hover {
+
+text-decoration-line: none !important;
+color: gray;
+}
+
+.sidenav .button{
+background-color: darkgray;
+color: white;
+}
+.sidenav .button:hover{
+  color: black;
+  background-color: wheat;
+}
+
+/* trivia pop up design */
+
+#myDIV{
+  background-color: wheat;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 1000;
+}
